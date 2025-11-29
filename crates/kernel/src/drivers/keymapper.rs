@@ -72,103 +72,103 @@ pub const DEFAULT_MAPPING: KeyMapping = create_mapping!(
 
     // Key W mappings
     { KeyCode::KeyW, {} } => "w",
-    { KeyCode::KeyW, { KeyFlags::CAPS_LOCK } } => "W",
+    { KeyCode::KeyW, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "W",
 
     // Key E mappings
     { KeyCode::KeyE, {} } => "e",
-    { KeyCode::KeyE, { KeyFlags::CAPS_LOCK } } => "E",
+    { KeyCode::KeyE, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "E",
 
     // Key R mappings
     { KeyCode::KeyR, {} } => "r",
-    { KeyCode::KeyR, { KeyFlags::CAPS_LOCK } } => "R",
+    { KeyCode::KeyR, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "R",
 
     // Key T mappings
     { KeyCode::KeyT, {} } => "t",
-    { KeyCode::KeyT, { KeyFlags::CAPS_LOCK } } => "T",
+    { KeyCode::KeyT, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "T",
 
     // Key Y mappings
     { KeyCode::KeyY, {} } => "y",
-    { KeyCode::KeyY, { KeyFlags::CAPS_LOCK } } => "Y",
+    { KeyCode::KeyY, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "Y",
 
     // Key U mappings
     { KeyCode::KeyU, {} } => "u",
-    { KeyCode::KeyU, { KeyFlags::CAPS_LOCK } } => "U",
+    { KeyCode::KeyU, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "U",
 
     // Key I mappings
     { KeyCode::KeyI, {} } => "i",
-    { KeyCode::KeyI, { KeyFlags::CAPS_LOCK } } => "I",
+    { KeyCode::KeyI, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "I",
 
     // Key O mappings
     { KeyCode::KeyO, {} } => "o",
-    { KeyCode::KeyO, { KeyFlags::CAPS_LOCK } } => "O",
+    { KeyCode::KeyO, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "O",
 
     // Key P mappings
     { KeyCode::KeyP, {} } => "p",
-    { KeyCode::KeyP, { KeyFlags::CAPS_LOCK } } => "P",
+    { KeyCode::KeyP, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "P",
 
     // Key A mappings
     { KeyCode::KeyA, {} } => "a",
-    { KeyCode::KeyA, { KeyFlags::CAPS_LOCK } } => "A",
+    { KeyCode::KeyA, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "A",
 
     // Key S mappings
     { KeyCode::KeyS, {} } => "s",
-    { KeyCode::KeyS, { KeyFlags::CAPS_LOCK } } => "S",
+    { KeyCode::KeyS, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "S",
 
     // Key D mappings
     { KeyCode::KeyD, {} } => "d",
-    { KeyCode::KeyD, { KeyFlags::CAPS_LOCK } } => "D",
+    { KeyCode::KeyD, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "D",
 
     // Key F mappings
     { KeyCode::KeyF, {} } => "f",
-    { KeyCode::KeyF, { KeyFlags::CAPS_LOCK } } => "F",
+    { KeyCode::KeyF, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "F",
 
     // Key G mappings
     { KeyCode::KeyG, {} } => "g",
-    { KeyCode::KeyG, { KeyFlags::CAPS_LOCK } } => "G",
+    { KeyCode::KeyG, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "G",
 
     // Key H mappings
     { KeyCode::KeyH, {} } => "h",
-    { KeyCode::KeyH, { KeyFlags::CAPS_LOCK } } => "H",
+    { KeyCode::KeyH, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "H",
 
     // Key J mappings
     { KeyCode::KeyJ, {} } => "j",
-    { KeyCode::KeyJ, { KeyFlags::CAPS_LOCK } } => "J",
+    { KeyCode::KeyJ, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "J",
 
     // Key K mappings
     { KeyCode::KeyK, {} } => "k",
-    { KeyCode::KeyK, { KeyFlags::CAPS_LOCK } } => "K",
+    { KeyCode::KeyK, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "K",
 
     // Key L mappings
     { KeyCode::KeyL, {} } => "l",
-    { KeyCode::KeyL, { KeyFlags::CAPS_LOCK } } => "L",
+    { KeyCode::KeyL, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "L",
 
     // Key Z mappings
     { KeyCode::KeyZ, {} } => "z",
-    { KeyCode::KeyZ, { KeyFlags::CAPS_LOCK } } => "Z",
+    { KeyCode::KeyZ, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "Z",
 
     // Key X mappings
     { KeyCode::KeyX, {} } => "x",
-    { KeyCode::KeyX, { KeyFlags::CAPS_LOCK } } => "X",
+    { KeyCode::KeyX, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "X",
 
     // Key C mappings
     { KeyCode::KeyC, {} } => "c",
-    { KeyCode::KeyC, { KeyFlags::CAPS_LOCK } } => "C",
+    { KeyCode::KeyC, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "C",
 
     // Key V mappings
     { KeyCode::KeyV, {} } => "v",
-    { KeyCode::KeyV, { KeyFlags::CAPS_LOCK } } => "V",
+    { KeyCode::KeyV, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "V",
 
     // Key B mappings
     { KeyCode::KeyB, {} } => "b",
-    { KeyCode::KeyB, { KeyFlags::CAPS_LOCK } } => "B",
+    { KeyCode::KeyB, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "B",
 
     // Key N mappings
     { KeyCode::KeyN, {} } => "n",
-    { KeyCode::KeyN, { KeyFlags::CAPS_LOCK } } => "N",
+    { KeyCode::KeyN, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "N",
 
     // Key M mappings
     { KeyCode::KeyM, {} } => "m",
-    { KeyCode::KeyM, { KeyFlags::CAPS_LOCK } } => "M",
+    { KeyCode::KeyM, { KeyFlags::CAPS_LOCK } | { KeyFlags::SHIFT } } => "M",
 
     // Key 1 mappings
     { KeyCode::Key1, {} } => "1",
